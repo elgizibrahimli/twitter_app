@@ -10,7 +10,7 @@ def login_page_data():
         "login_form": LoginForm(),
     }
 
- #salam testsdadsakjdskjbjkda.j,ads.jn,a
+ #salam testsdadsakjdskjbjkda.j,ads.jn,aadskjashjadshjadsadsabdakjb
 def baseindexview(request):
     if request.user.is_authenticated:
         return redirect("dashboard")
