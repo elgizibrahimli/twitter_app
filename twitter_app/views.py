@@ -11,6 +11,7 @@ def login_page_data():
     }
 
  #salam testsdadsakjdskjbjkda.j,ads.jn,aadskjashjadshjadsadsabdakjb
+ #salam
 def baseindexview(request):
     if request.user.is_authenticated:
         return redirect("dashboard")
